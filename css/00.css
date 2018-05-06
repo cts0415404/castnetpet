@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Verdana, Geneva, sans-serif, "微軟正黑體";
+	color:#4d342d;
+	margin:0;
+	padding:0;
+	text-align:center;
+	background:#fed593;
+}
+
+/* header */
+
+
+/* banner大圖 */
+.banner{
+	width:100%;
+	background:#ec7358;
+	margin:0px auto;
+}
+
+
+/* 下去箭頭 */
+.ar{
+	margin:0px auto;
+	padding:15px;
+	width:85px;
+}
+
+.ar img{
+	width:100%;
+}
+
+.ar:hover{
+	cursor:pointer;
+	opacity:0.7;
+}
+
+
+
+/* 五大原因 */
+
+.reason{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.reason h2{
+	padding:55px 0px;
+	line-height: 36px;
+	text-align:center;
+}
+
+.reason img{
+	width:250px;
+	-ms-transform: scale(1,1); /* IE 9*/
+	-webkit-transform:scale(1,1); /* Safari */
+	transform:scale(1,1); /* Standard syntax */
+	
+	transform:transform 0.3s;
+	-webkit-transition:transform 0.3s;
+	
+	transition-timing-function: ease-in-out;
+	-webkit-transition-timing-function:ease-in-out; /* Safari */
+}
+
+.reason img:hover{
+	-ms-transform: scale(1.2,1.2); /* IE 9*/
+	-webkit-transform:scale(1.2,1.2); /* Safari */
+	transform:scale(1.2,1.2); /* Standard syntax */
+}
+
+/* 養寵物資料 */
+.data{
+	width:80%;
+	padding:20px;
+	margin:auto auto 100px auto;
+}
+
+.data h2{
+	padding:55px 0px;
+	line-height: 36px;
+	text-align:center;
+}
+
+.box{
+	background:#FFFFFF;
+	border-radius:10px;
+	box-shadow: 2px /*水平位移*/ 2px /*垂直位移*/ 8px /*模糊程度*/ #999;
+	margin:0px 0px 100px 0px;
+}
+
+/* 狗生 */
+.life{
+	clear: both;
+	width:100%;
+	margin:auto;
+	padding:60px;
+	background:#ec7358;
+}
+
+.life h2{
+	padding:5px 0px;
+	line-height: 36px;
+	text-align:center;
+}
+
+/* Part1 */
+
+.part1{
+	clear: both;
+	width:75%;
+	margin:auto;
+	padding:20px 0px;
+}
+	
+.P1{
+	padding:5px;
+	margin:30px;
+	background:#FFFFFF;
+	color: rgba(247,92,47,1);
+	border-radius:10px;
+	box-shadow: 2px /*水平位移*/ 2px /*垂直位移*/ 8px /*模糊程度*/ #999;
+}
+
+/* money */
+.money{
+	padding:70px 0px;
+	width:65%;
+	margin:auto;
+}
+
+
+/* 上去箭頭 */
+
+.gototop{
+	margin:0px auto;
+	text-align:center;
+	width:100%;
+	background:#ec7358;
+}
+
+.gototop img{
+	margin:0px auto;
+	text-align:center;
+	padding:50px 15px 15px 15px;
+	width:85px;
+}
+
+.gototop img:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
