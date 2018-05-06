@@ -6,7 +6,12 @@
 <link rel="shortcut icon" href="favicon.ico">
 <link href="css/00.css" rel="stylesheet" type="text/css">
 <link href="css/rwd.css" rel="stylesheet" type="text/css"/>
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="js/fancybox/source/jquery.fancybox.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function(){	
@@ -30,7 +35,17 @@ $(document).ready(function(){
 
 	});
 
-	
+
+	//single
+	$(".s3").fancybox({
+    	openEffect : 'elastic',
+    	closeEffect	: 'elastic',
+    	helpers : {
+    		title : {
+    			type : 'outside'
+    		}
+    	}
+    });
 
 	});
 </script>
@@ -72,11 +87,15 @@ $(document).ready(function(){
 <!--Part1-->
 <div class="part1">
     <div class="col-8">
-        <div class="P1"><img src="images/P1-1.png"  width="100%"/></div>
-        <div class="P1"><img src="images/P1-2.png"  width="100%"/></div>
+        <a class="s3" href="images/S1.png">
+        <div class="P1"><img src="images/P1-1.png"  width="100%"/></div></a>
+        
+        <a class="s3" href="images/S2.png">
+        <div class="P1"><img src="images/P1-2.png"  width="100%"/></div></a>
     </div>
 	<div class="col-4">
     <img src="images/D1.png" /></div>
+</div>
 </div>
 
 <!--Part2-->
@@ -84,16 +103,22 @@ $(document).ready(function(){
 	<div class="col-4">
     <img src="images/D2.png" /></div>
     <div class="col-8">
-        <div class="P1"><img src="images/P2-1.png"  width="100%"/></div>
-        <div class="P1"><img src="images/P2-2.png"  width="100%"/></div>
+        <a class="s3" href="images/S3.png">
+        <div class="P1"><img src="images/P2-1.png"  width="100%"/></div></a>
+        
+        <a class="s3" href="images/S4.png">
+        <div class="P1"><img src="images/P2-2.png"  width="100%"/></div></a>
     </div>
 </div>
 
 <!--Part3-->
 <div class="part1">
     <div class="col-8">
-        <div class="P1"><img src="images/P3-1.png"  width="100%"/></div>
-        <div class="P1"><img src="images/P3-2.png"  width="100%"/></div>
+        <a class="s3" href="images/S5.png">
+        <div class="P1"><img src="images/P3-1.png"  width="100%"/></div></a>
+        
+        <a class="s3" href="images/S6.png">
+        <div class="P1"><img src="images/P3-2.png"  width="100%"/></div></a>
     </div>
     <div class="col-4">
     <img src="images/D3.png" /></div>
@@ -105,8 +130,11 @@ $(document).ready(function(){
     <div class="col-4">
     <img src="images/D4.png" /></div>
     <div class="col-8">
-        <div class="P1"><img src="images/P4-1.png"  width="100%"/></div>
-        <div class="P1"><img src="images/P4-2.png"  width="100%"/></div>
+        <a class="s3" href="images/S7.png">
+        <div class="P1"><img src="images/P4-1.png"  width="100%"/></div></a>
+        
+        <a class="s3" href="images/S8.png">
+        <div class="P1"><img src="images/P4-2.png"  width="100%"/></div></a>
     </div>
 </div>
 
@@ -118,13 +146,21 @@ $(document).ready(function(){
 
 <!--最後數據-->
 <div class="money">
-    <div class="P1"><img src="images/M1.png"  width="100%"/></div>
-    <div class="P1"><img src="images/M2.png"  width="100%"/></div>
+    <div class="P2"><img src="images/M1.png"  width="100%"/></div>
+    <div class="P2"><img src="images/M2.png"  width="100%"/></div>
 </div>
 
 <!--箭頭上去-->
 <div class="end">
 	<div class="gototop"><img src="images/up.png"></div>
+    資料來源：
+    <a href="https://animal.coa.gov.tw/html/index_06.html" target="_blank" class="hey">農委會動物保護資訊網</a>、
+    <a href="https://cus93.trade.gov.tw/FSC3000F/FSC3000F" target="_blank" class="hey">經濟部國貿局</a>、
+    <a href="http://www.hotpets.com.tw/%E5%AF%B5%E7%89%A9%E5%B8%82%E5%A0%B4%E5%B7%B2%E9%A3%BD%E5%92%8C%EF%BC%9F%E6%AF%9B%E7%B6%93%E6%BF%9F%E5%B9%B4%E5%BA%A6%E7%9B%9B%E4%BA%8B-%E5%88%86%E6%9E%90%E5%8F%B0%E9%A3%BC%E4%B8%BB%E5%8F%8A%E5%B8%82/" target="_blank" class="hey">哈寵誌</a>、
+    <a href="http://www.rockfuture.net/leading/world/content-7802.html" target="_blank" class="hey">創創點火器</a>、
+    <a href="https://www.giichinese.com.tw/report/moi319394-companion-animal-health-market-by-products.html" target="_blank" class="hey">Global Information, Inc</a><br>
+    &copy; Designed by Ino Hsiao, 2018
+    
 </div>
 
 </body>
